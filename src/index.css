@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root{
+  --encabezado-color:#0680B5;
+  --fondo-color:#C4C4C4;
+  --boton-color:#ffce1f;
+  --back-color:#add3ff;
+}
+
+html{
+  height: 100%;
+}

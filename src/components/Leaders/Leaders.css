@@ -1,0 +1,79 @@
+@import url('../../index.css');
+
+/* .list-leaders{
+    display:inline-block;
+} */
+
+/* .list-leaders-container{
+    border-color: red;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.div-list-leaders-container{
+    margin-top: 10px;
+    background-color: var(--fondo-color);
+    height: 40px;  
+    border-radius: .8rem;
+    padding-top: .7rem;
+}
+
+.list-leaders{
+    margin-left: 0.7rem;
+    margin-right: 0.7rem;
+} */
+
+.icon-bar{
+    cursor: pointer;
+}
+
+.search-button{
+    cursor: pointer;
+}
+
+.search-button:hover{
+    background-color: red;
+    color: white;
+}
+
+.leaders{
+    /* text-align: center;
+    align-items: center; */
+    padding: 10px;
+    /* border-bottom: var(--encabezado-color) 1px solid ; */
+    /* background-color: var(--fondo-color); */
+}
+
+.th-edition{
+    align-items: left;
+    border-bottom: var(--encabezado-color) 1px solid;
+    border-spacing: 0;
+    height: 35px;
+    align-items: center;
+}
+
+.Leaders-table{
+    width: 100%;
+    text-align: center;
+    border-spacing: 0;
+    
+}
+
+/* .leaders-icon{
+    display: flex;
+    align-self: center;
+    padding-left: 50px;
+    text-align: center;
+} */
+
+.div-icons{
+    width: 25px;
+    height: 25px;
+    margin-left: 30px;
+}
+
+.user-icon-leaders{
+    color: var(--fondo-color);
+    margin-left: 6px;
+}

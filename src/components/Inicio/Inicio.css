@@ -1,0 +1,94 @@
+@import url('../.././index.css');
+
+/*Barra de navegacion */
+.barra-navegacion{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.app-icono{
+    width: 50px;
+}
+.app-nombre{
+    margin: 20px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+
+.list-inicio li{
+    list-style: none;
+    margin-right: 30px;
+}
+
+/*Form del login*/
+
+.login{
+    width: 50vw; 
+    padding-top: 100px; 
+}
+
+form.ingresar{
+    display: flex;
+    flex-direction: column;
+    margin-left:100px;
+    margin-right:100px;
+    justify-content: center;
+}
+
+.titulo{
+    margin-bottom: 30px;
+}
+h2{
+    font-size: 2rem;
+    padding-bottom: 5px;
+}
+p{
+    color: gray;
+}
+
+
+input{
+    height: 40px;
+    border:var(--back-color) 2px solid; 
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+button.enviar{
+    border:none;
+    border-radius: 30px;
+    background-color: var(--boton-color);
+    height: 50px;
+    width: 200px;
+    margin: 30px;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/*Imagen de portada*/
+
+.imagen-portada{
+    border-radius: 50%;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+}
+
+.inicio{
+    display: flex;
+}

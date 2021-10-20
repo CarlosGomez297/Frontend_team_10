@@ -1,0 +1,89 @@
+@import url('../../index.css');
+
+.agregar-proyecto form{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--fondo-color);
+    border-radius: 10px;
+    padding: 40px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.agregar-proyecto form .descripcion{ 
+    height: 100px;
+}
+
+.agregar-proyecto form .fecha{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.agregar-proyecto form input[type="date"]{
+    width: 100%;
+}
+
+.agregar-proyecto form button{ 
+    align-self: center;
+    border:none;
+    border-radius: 30px;
+    background-color: var(--boton-color);
+    height: 40px;
+    width: 200px;
+    margin: 30px;
+    border: none;
+}
+
+/*-------------*/
+/*.editar-proyecto{
+    display: none;
+}*/
+
+.editar-proyecto form.buscar{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--fondo-color);
+    border-radius: 10px;
+    padding: 40px;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.buscar input{
+    width: 80%;
+    margin: 0;
+}
+
+.buscar button{
+    height: 40px;
+    background-color: var(--boton-color);
+    border: none;
+    border-radius: 20px ;
+    text-align: center;
+    padding-left: 20px;padding-right: 20px;
+}
+
+li.proyectos{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: var(--encabezado-color) 1px solid ;
+    margin: 0;
+}
+.editar-proyecto ul{
+    padding: 0;
+}
+
+i{
+    padding-right: 20px;
+    color: gray;
+}
+.proyectos p{
+    color: black;
+    padding-left: 10px;
+}
+
+.fa-folders{
+    color: red;
+}
